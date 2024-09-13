@@ -1,3 +1,6 @@
+<!--  Jordyn Guy
+September 12, 2024 -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,8 +8,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Password Generator</title>
     <script src="passwordGenerator.js"></script>
+    <link href="passwordGenStyles.css" rel="stylesheet">
 </head>
 <body>
-    
+    <div class="container">
+    <h1 style="text-decoration: underline;">Password Generator</h1>
+
+    <!-- Username input -->
+    <label for="username">Username:</label>
+    <input type="text" id="username" placeholder="Enter your username">
+
+    <!-- Password input -->
+    <label for="password">Password:</label>
+    <input type="password" id="password" placeholder="Leave empty to create PW">
+
+    <!-- Button to generate password -->
+    <button id="enterBtn" onclick="handleUserInput()">Enter</button>
+
+    <!-- Area to display results -->
+    <p id="result"></p>
+
+</div>
+
 </body>
 </html>
