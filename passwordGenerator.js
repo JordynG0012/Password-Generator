@@ -1,6 +1,6 @@
 // My User Input
 let username = prompt('Enter your name');
-let password = prompt('Enter a password(Leave empty for Generated PW');
+let password = prompt('Enter a password (Leave empty for Generated PW)');
 
 // Function to generate a random password
 function generatePassword(length = 12) {
