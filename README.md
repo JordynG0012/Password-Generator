@@ -1,2 +1,2 @@
 # Password-Generator
-This password generator creates secure passwords by selecting random characters from a set of uppercase, lowercase, numbers, and special symbols. Users can input a password or generate one automatically. The generated password is 12 characters long by default, ensuring a strong level of security.
+This project consists of a password generator built using HTML, JavaScript, and CSS. The generator allows users to input their username and password, but it also provides default functionality if either input is missing.
